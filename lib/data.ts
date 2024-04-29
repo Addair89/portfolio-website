@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import VGWImage from "@/public/VGW-screenshot2.png";
+import BattleShipImage from "@/public/BattleShip.png";
+import CrownClothingImage from "@/public/CrownClothing.png";
 
 export const links = [
   {
@@ -35,52 +35,58 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated Certificate Program",
+    location: "Colorado State University",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 3 months of studying. This began my journey into programming. Learning HTML, CSS, JS, Python, and PHP.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "San Diego, CA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Sole developer for 3 years at an e-commerce consulting company, specializing primarily in Shopify development while also working with platforms like BigCommerce and HubSpot. Responsible for all development tasks for multiple clients; front end, back end, SEO, speed, and applications.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full Stack Developer",
+    location: "Tucson, AZ",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Took time to care for my family while simultainously improving my skills and learning through GA's intensive 12 week software engineering bootcamp.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "VGW",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Using the RAWG api, VGW allows users to search over 800,000 games, add games to their wish list and review games. Each game has screen shots, ratings, details and more.",
+    tags: ["EJS", "Mongo", "Express", "Mongoose", "JavaScript"],
+    imageUrl: VGWImage,
+    liveLink: "https://vgw-dee77964e270.herokuapp.com/",
+    gitHubLink: "https://github.com/Addair89/VGW",
   },
   {
-    title: "rmtDev",
+    title: "BattleShip",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "The Classic Battleship game is implemented with JS, CSS, and HTML. Players can place ships, target computer ships, and hopefully kill the evil A.I.",
+    tags: ["JavaScript", "HTML", "CSS"],
+    imageUrl: BattleShipImage,
+    liveLink: "https://addair89.github.io/Battleship/",
+    gitHubLink: "https://github.com/Addair89/Battleship",
   },
   {
-    title: "Word Analytics",
+    title: "Crown Clothing",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "E-commerce store allowing user to sign-in, browse items, and add product to their carts.",
+    tags: ["React", "SCSS", "Firebase"],
+    imageUrl: CrownClothingImage,
+    liveLink: "https://custom-storeja.netlify.app/",
+    gitHubLink: "https://github.com/Addair89/CustomStore",
   },
 ] as const;
 
@@ -90,18 +96,13 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
   "Django",
-  "Framer Motion",
 ] as const;

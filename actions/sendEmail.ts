@@ -1,5 +1,4 @@
 "use server";
-
 import React from "react";
 import { Resend } from "resend";
 import { validateString, getErrorMessage } from "@/lib/utils";
@@ -27,7 +26,7 @@ export const sendEmail = async (formData: FormData) => {
   try {
     data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
-      to: "bytegrad@gmail.com",
+      to: "addairjared@gmail.com",
       subject: "Message from contact form",
       reply_to: senderEmail,
       react: React.createElement(ContactFormEmail, {
@@ -35,7 +34,7 @@ export const sendEmail = async (formData: FormData) => {
         senderEmail: senderEmail,
       }),
     });
-  } catch (error: unknown) {
+  } catch (error) {
     return {
       error: getErrorMessage(error),
     };
