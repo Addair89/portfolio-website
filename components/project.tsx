@@ -39,12 +39,14 @@ export default function Project({
             <a
               className="underline italic pl-4 group-even:pl-0 hover:text-sky-500"
               href={liveLink}
+              target="_blank"
             >
               Site
             </a>
             <a
               className="underline italic hover:text-sky-500"
               href={gitHubLink}
+              target="_blank"
             >
               GitHub
             </a>

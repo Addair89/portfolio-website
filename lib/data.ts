@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import VGWImage from "@/public/VGW-screenshot2.png";
 import BattleShipImage from "@/public/BattleShip.png";
-import CrownClothingImage from "@/public/CrownClothing.png";
+import techTutorImage from "@/public/QuizPort.png";
 
 export const links = [
   {
@@ -80,13 +80,13 @@ export const projectsData = [
     gitHubLink: "https://github.com/Addair89/Battleship",
   },
   {
-    title: "Crown Clothing",
+    title: "{techTutor}",
     description:
-      "E-commerce store allowing user to sign-in, browse items, and add product to their carts.",
-    tags: ["React", "SCSS", "Firebase"],
-    imageUrl: CrownClothingImage,
-    liveLink: "https://custom-storeja.netlify.app/",
-    gitHubLink: "https://github.com/Addair89/CustomStore",
+      "A custom quiz and flash-card app that allows users to create, edit, and delete quizzes and flash-cards. Users can also take quizzes and view their scores. Built with React, Tailwind, and MongoDB.",
+    tags: ["React", "Tailwind", "MongoDB", "Express", "Node.js"],
+    imageUrl: techTutorImage,
+    liveLink: "https://techtutor-3f12bdf80413.herokuapp.com/",
+    gitHubLink: "https://github.com/Addair89/techTutor-v2",
   },
 ] as const;
 
@@ -100,7 +100,6 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "MongoDB",
-  "Redux",
   "Express",
   "PostgreSQL",
   "Python",
