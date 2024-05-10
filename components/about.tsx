@@ -37,7 +37,7 @@ export default function About() {
         learned a solid foundation in HTML, CSS, JavaScript, Mongoose, Mongo,
         Python, Django, PostgreSQL, and React. I found myself gravitating
         torwards the MERN stack and plan to continue my education in that
-        direction. TypeScript is my next objective!
+        direction. Next.js is my next objective!
       </p>
       <p className="mb-3">
         <span className="font-medium">Beyond the code</span>, I'm a devoted
