@@ -33,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src={PortfolioPic}
-              alt="Ricardo portrait"
+              alt="Jared portrait"
               width="192"
               height="192"
               quality="95"
@@ -54,7 +54,7 @@ export default function Intro() {
         <span className="font-bold">3 years</span> of experience. I enjoy
         learning new<span className="italic"> technology and solutions</span>. I
         am a <span className="font-bold">MERN</span> developer with a solid
-        foundation in various technoligies and a never ending thirst to learn.
+        foundation in various technologies and a never ending thirst to learn.
       </motion.h1>
 
       <motion.div
