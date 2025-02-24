@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "WholeDeal",
     description:
-      "WholeDeal is a web platform that connects wholesale buyers with local sellers, streamlining the ordering and delivery process. Buyers can browse sellers based on location, view available products, and place orders, while sellers manage inventory, confirm orders, and track deliveries.",
+      "WholeDeal is a web platform that connects wholesale buyers with local sellers, streamlining the ordering and delivery process.",
     tags: ["React", " Node.js", "PostgreSQL", "Render", "Tailwind CSS", "Neon"],
     imageUrl: WholeDealImage,
     liveLink: "https://whole-deal.vercel.app/",
