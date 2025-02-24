@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import VGWImage from "@/public/VGW-screenshot2.png";
+import WholeDealImage from "@/public/wholedealimage.png";
 import BattleShipImage from "@/public/BattleShip.png";
 import techTutorImage from "@/public/QuizPort.png";
 
@@ -62,13 +62,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "VGW",
+    title: "WholeDeal",
     description:
-      "Using the RAWG api, VGW allows users to search over 800,000 games, add games to their wish list and review games. Each game has screen shots, ratings, details and more.",
-    tags: ["EJS", "Mongo", "Express", "Mongoose", "JavaScript"],
-    imageUrl: VGWImage,
-    liveLink: "https://vgw-dee77964e270.herokuapp.com/",
-    gitHubLink: "https://github.com/Addair89/VGW",
+      "WholeDeal is a web platform that connects wholesale buyers with local sellers, streamlining the ordering and delivery process. Buyers can browse sellers based on location, view available products, and place orders, while sellers manage inventory, confirm orders, and track deliveries.",
+    tags: ["React", " Node.js", "PostgreSQL", "Render", "Tailwind CSS", "Neon"],
+    imageUrl: WholeDealImage,
+    liveLink: "https://whole-deal.vercel.app/",
+    gitHubLink: "https://github.com/Addair89/whole-deal",
   },
   {
     title: "BattleShip",
